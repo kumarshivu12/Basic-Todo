@@ -7,7 +7,7 @@ const Wrapper = ({ children }) => {
       maxWidth={"100vw"}
       minHeight={"100vh"}
       flexWrap={"wrap"}
-      sx={{ border: "1px solid red", backgroundColor: "#f0ece5" }}
+      sx={{ backgroundColor: "#f0ece5" }}
     >
       {children}
     </Stack>

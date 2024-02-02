@@ -32,7 +32,8 @@ const TodoItem = ({ todo }) => {
     >
       <Stack direction={"row"} alignItems={"center"} spacing={2}>
         <Checkbox
-          value={checked}
+          // value={checked}
+          checked={checked}
           onChange={handleChange}
           sx={{
             color: "black",
